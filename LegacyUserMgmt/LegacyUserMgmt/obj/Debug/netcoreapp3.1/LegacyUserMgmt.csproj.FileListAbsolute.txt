@@ -1,0 +1,4 @@
+/Users/rlemko/test-code/interview-code-review/LegacyUserMgmt/LegacyUserMgmt/obj/Debug/netcoreapp3.1/LegacyUserMgmt.csprojAssemblyReference.cache
+/Users/rlemko/test-code/interview-code-review/LegacyUserMgmt/LegacyUserMgmt/obj/Debug/netcoreapp3.1/LegacyUserMgmt.AssemblyInfoInputs.cache
+/Users/rlemko/test-code/interview-code-review/LegacyUserMgmt/LegacyUserMgmt/obj/Debug/netcoreapp3.1/LegacyUserMgmt.AssemblyInfo.cs
+/Users/rlemko/test-code/interview-code-review/LegacyUserMgmt/LegacyUserMgmt/obj/Debug/netcoreapp3.1/LegacyUserMgmt.csproj.CoreCompileInputs.cache
