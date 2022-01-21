@@ -1,6 +1,5 @@
 using System;
 using System.Net.Http;
-using System.Threading.Tasks;
 
 namespace LegacyUserMgmt
 {
@@ -57,63 +56,5 @@ namespace LegacyUserMgmt
 
             return -1;
         }
-    }
-
-    public class LegacyApiCredsProvider
-    {
-        public static string GetBasicAuth()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    public class SqlDbRepository
-    {
-        public SqlDbRepository(string s)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<User> GetUserDataAsync(object id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void SaveUserRatingAsync(string userId, int value1)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    public class UserRatingCache
-    {
-        public static Cache GetInstance()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    public class Cache
-    {
-        public User FindById(string userId)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    public enum UserType
-    {
-        Unknown,
-        SuperUser
-    }
-
-    public class User
-    {
-        public UserType Type { get; set; }
-        public string Id { get; set; }
-        public DateTime LastModifiedDate { get; set; }
-        public int PostsWritten { get; set; }
-        public int CommentsWritten { get; set; }
-        public int Rating { get; set; }
     }
 }
